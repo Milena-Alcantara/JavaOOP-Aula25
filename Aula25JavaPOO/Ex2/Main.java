@@ -9,13 +9,10 @@ public class Main {
     Funcionario funcionario3 = new Funcionario(3);
 
     funcionario1.setNome("Milena");
-    LocalDate datadeAdmissao = LocalDate.of(2023,01,02); //A data de admissão vem aqui
+    LocalDate datadeAdmissao = LocalDate.of(2023,01,02);    //A data de admissão vem aqui
     funcionario1.setDatedeAdm(datadeAdmissao);
     funcionario1.setSalario(1230.00);
 
-        System.out.println(funcionario1.getIdent());
-        System.out.println(funcionario2.getIdent());
-        System.out.println(funcionario3.getIdent());
 
 
     funcionario2.setNome("Luana");

@@ -1,0 +1,9 @@
+b.Quais são os construtores?
+R: public Azul (int tonalidade)
+
+c. Quais métodos fazem parte da interface dessa classe?
+R: public Azul(int tonalidade) { ... }, public int getTonalidade() {return tonalidade;}, public void setTonalidade(int tonalidade) { ... }, public void tornarMaisEscuro() { ... }, void calcularTonalidade() { ... }, private void TornarTonalidadeMaisEscura(int valor) { ... }
+
+f. O código abaixo roda? Justifique.    var color = new Blue();
+R: Não poderia rodar, no exemplo var color = new Blue(); seria a tentativa de criar um objeto porém considerando o exemplo a classe "Blue" não existe e o var não poderia ser aceito pois não referencia a classe do exemplo.
+
